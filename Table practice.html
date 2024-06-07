@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Table Practices</title>
 </head>
 <body>
     <h1>Nested Table Practice</h1>
-    <table border="3">
+    <table border="3" cellspacing="0px" style="text-align: center;">
         <thead>
-            <th>Table Heading</th>
-            <th>Table Heading</th>
-            <th>Table Heading</th>
+            <th width="100px" height="50px">Table Heading</th>
+            <th width="100px" height="50px">Table Heading</th>
+            <th width="100px" height="50px">Table Heading</th>
         </thead>
 <tbody>
-    <tr>
+    <tr width="100px" height="50px">
         <td>Table Data</td>
         <td>Table Data</td>
         <td>Table Data</td>
     </tr>
-    <tr>
+    <tr width="100px" height="50px">
         <td>Table Data</td>
         <td>Table Data
             <table border="1">
@@ -29,17 +29,17 @@
                     <th>Table Haeding</th>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr width="100px" height="50px">
                         <td>Table Data</td>
                         <td>Table Data</td>
                         <td>Table Data</td>
                     </tr>
-                    <tr>
+                    <tr width="100px" height="50px">
                         <td>Table Data</td>
                         <td>Table Data</td>
                         <td>Table Data</td>
                     </tr>
-                    <tr>
+                    <tr width="100px" height="50px">
                         <td>Table Data</td>
                         <td>Table Data</td>
                         <td>Table Data</td>
@@ -49,12 +49,81 @@
         </td>
         <td>Table Data</td>
     </tr>
-    <tr>
+    <tr width="100px" height="50px">
         <td>Table Data</td>
         <td>Table Data</td>
         <td>Table Data</td>
     </tr>
 </tbody>
     </table>
+
+    <h1>Time Table</h1>
+    <table border="3" cellSpacing="0px" style="text-align: center; " >
+        <thead>
+            <th width="120px" height="50px">Day/Period</th>
+            <th width="120px" height="50px">I 9:30-10:20</th>
+            <th width="120px" height="50px">II 10:20-11:10</th>
+            <th width="120px" height="50px">III 11:10-12:00</th>
+            <th width="120px" height="50px">12:00-12:40</th>
+            <th width="120px" height="50px">IV 12:40-1:30</th>
+            <th width="120px" height="50px">V 1:30-2:20</th>
+            <th width="120px" height="50px">VI 2:20-3:10</th>
+            <th width="120px" height="50px">VII 3:10-4:00</th>
+        </thead>
+        <tbody>
+            <tr height="50px">
+                <th>Monday</th>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Chemistry</td>
+                <th rowspan="6" style="writing-mode: vertical-rl; text-orientation: upright; letter-spacing: 20px;">LUNCH</th>
+                <td colspan="3">Lab</td>
+                <td>Physics</td>
+            </tr>
+            <tr height="50px">
+                <th>Tuesday</th>
+                <td colspan="3">Lab</td>
+                <td>English</td>
+                <td>Chemistry</td>
+                <td>Maths</td>
+                <td>Sports</td>
+            </tr>  
+            <tr height="50px">
+                <th>Wednesday</th>
+                <td>Maths</td>
+                <td>Physics</td>
+                <td>English</td>
+                <td>Chemistry</td>
+                <td colspan="3">Library</td>
+
+            </tr>  
+            <tr height="50px">
+                <th>Thursday</th>
+                <td>Physics</td>
+                <td>English</td>
+                <td>Chemistry</td>
+                <td colspan="3">Lab</td>
+                <td>Maths</td>
+            </tr>  
+            <tr height="50px">
+                <th>Friday</th>
+                <td colspan="3">Lab</td>
+                <td>Maths</td>
+                <td>Chemistry</td>
+                <td>English</td>
+                <td>Physics</td>
+            </tr> 
+             <tr height="50px">
+                <th>Saturday</th>
+                <td>English</td>
+                <td>Chemistry</td>
+                <td>Maths</td>
+                <td colspan="3">Seminar</td>
+                <td>Sports</td>
+            </tr>
+        </tbody>
+    </table>
+
+    
 </body>
 </html>
