@@ -1,0 +1,10 @@
+var MyAge = 24;
+alert("I am 24 years old");
+var NoOfVisits = 15;
+alert("You have visited this site 15 times");
+var birthYear = 2000;
+document.write ("My birth year is " + birthYear + "</br>" + "Data typle of my declared variable is number" ); 
+var VisitorName = "Johne Doe";
+var ProductTitle = "T-shirt(s)";
+var Quantity = 5;
+document.write ("</br>" + VisitorName + " ordered " + Quantity + " " + ProductTitle + " on XYZ clothing store ");
